@@ -50,7 +50,7 @@ We will compare the execution time to get the speedup by
 <pre>
 Speedup = convLayerCPU_execTime / convLayerGPU_execTime
 PS：convLayerGPU_execTime includes : cudaMalloc time 、cudaMemcpy time and execution time. 
-Please  put these functions between clock_gettime(CLOCK_REALTIME, &time_begin) and clock_gettime(CLOCK_REALTIME, &time_end)
+Please  put these functions between clock_gettime(CLOCK_REALTIME, &time_begin) between clock_gettime(CLOCK_REALTIME, &time_end)
 </pre>
 
 ## Grading Policy
@@ -69,7 +69,7 @@ Please  put these functions between clock_gettime(CLOCK_REALTIME, &time_begin) a
 
 ## Other Rules
 * It’s a team work, 1 ~ 4 people in one team <br/>
-   - Register [here] (**Please reedit!**)(https://docs.google.com/spreadsheets/d/1cSKtAuxRwu-y8bwys1Dka8hY58U_clqU0l4W81Cis3Y/edit?usp=sharing) before deadline.<br/>
+   - Register (**Please reedit!**)[here](https://docs.google.com/spreadsheets/d/1cSKtAuxRwu-y8bwys1Dka8hY58U_clqU0l4W81Cis3Y/edit?usp=sharing) before deadline.<br/>
 * [Account list](https://docs.google.com/spreadsheets/d/1hLfJjv58QsXRwLlma45IflcpicqlQFgYiKp77vlJokk/edit#gid=0)
 * Compress your **code** and **report** into one zip file and upload to E3.<br/>
 * Name your report as：**LeaderID_Report_FP2.pdf**<br/>
@@ -81,9 +81,11 @@ Please  put these functions between clock_gettime(CLOCK_REALTIME, &time_begin) a
 * **Due day：2017/11/30(Thr) 23:50** <br/>
 
 ## Useful Reference
-* Introduction to CNN -1 [Here](http://cs231n.github.io/convolutional-networks/)
-* Introduction to CNN -2 [Chinese version](https://brohrer.mcknote.com/zh-Hant/how_machine_learning_works/how_convolutional_neural_networks_work.html) &nbsp;   [English version](https://brohrer.github.io/how_convolutional_neural_networks_work.html)
-* Introduction to CUDA [Here](http://www.nvidia.com/docs/io/116711/sc11-cuda-c-basics.pdf)
-* NVVP [Here](http://people.maths.ox.ac.uk/gilesm/cuda/lecs/NV_Profiling_lowres.pdf)
-* GPU Profiling [Here](http://docs.nvidia.com/cuda/profiler-users-guide/index.html#axzz4PPDcxdt6)
+* Neural Network Pruning [Here](https://arxiv.org/pdf/1506.02626.pdf)
+* Sparsity in Neurons [Here](http://www.ece.ubc.ca/~aamodt/papers/Cnvlutin.ISCA2016.pdf)
+* Sparse Foramat in Matrix Multiplication [Here](https://pdfs.semanticscholar.org/9abb/086fabdcd2853ed8303c0f9a62cf4b917a62.pdf)
+* Implement Sparse Matrix Multiplication with CUDA [Here](http://wnbell.com/media/2008-12-NVR-SpMV/nvr-2008-004.pdf)
+* An Accelerator for Sparse CNN [Here](http://people.csail.mit.edu/anurag_m/papers/2017.scnn.isca.pdf)
+* Sparse Format - Nvidia [Here](https://drive.google.com/file/d/0B-mvsV4UBCFFbEhpMzFIbUVLVGs/view?usp=sharing )
+
 
