@@ -79,7 +79,7 @@ int main()
 	timespec time_begin, time_end; 
 	int convLayerCPUExecTime, convLayerGPUExecTime;
 	init();
-	
+	initCoo();
 
 	//Convolution by CPU                                                
 	clock_gettime(CLOCK_REALTIME, &time_begin);
