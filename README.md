@@ -87,5 +87,6 @@ Please  put these functions between clock_gettime(CLOCK_REALTIME, &time_begin) b
 * Implement Sparse Matrix Multiplication with CUDA [Here](http://wnbell.com/media/2008-12-NVR-SpMV/nvr-2008-004.pdf)
 * An Accelerator for Sparse CNN [Here](http://people.csail.mit.edu/anurag_m/papers/2017.scnn.isca.pdf)
 * Sparse Format - Nvidia [Here](https://drive.google.com/file/d/0B-mvsV4UBCFFbEhpMzFIbUVLVGs/view?usp=sharing )
+* Cuda-Debuging Command Line (It is helpful for you) [Here](https://drive.google.com/file/d/0B-mvsV4UBCFFZ24yeG96TEFVa0k/view?usp=sharing)
 
 
